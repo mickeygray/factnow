@@ -21,6 +21,14 @@ body {
  color: #333;
 }
 
+.articlebody {
+ width: 600px;
+}
+
+.adbar {
+ width: 300px;
+}
+
 a {
  color: var(--primary-color);
  text-decoration: none;

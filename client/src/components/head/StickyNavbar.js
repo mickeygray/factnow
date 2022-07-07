@@ -24,6 +24,7 @@ const StickyNavbar = () => {
    setStyle({
     backgroundColor: "rgb(211,224,237)",
     zIndex: "999999999999999",
+    width: "100vw",
    });
   }
  }, [position, setStyle]);
@@ -36,6 +37,7 @@ const StickyNavbar = () => {
    position: "sticky",
    top: "0",
    zIndex: "999999999999999",
+   width: "100vw",
   });
  };
 
