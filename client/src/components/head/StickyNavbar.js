@@ -1,5 +1,6 @@
 import React, { useEffect, useState, Fragment, useContext } from "react";
-import { useLocation, Link } from "react-router-dom";
+import { useLocation, NavLink } from "react-router-dom";
+import logo from "../../images/KDLOGO.png";
 
 const StickyNavbar = () => {
  const [style, setStyle] = useState({});
@@ -43,19 +44,12 @@ const StickyNavbar = () => {
 
  return (
   <nav onScroll={onScroll} style={style} className='navbar nav'>
-   <a href='#hero'>
+   <a href='/'>
     {" "}
-    <h1
-     className='text-primary'
-     style={{
-      fontSize: "4rem",
-      textDecoration: "underline",
-      color: "#FE5001",
-     }}>
-     <b>
-      <i>ACT NOW TAX!</i>
-     </b>
-    </h1>
+    <h3 className='all-center' style={{ color: "black" }}>
+     <img src={logo} alt='' />
+     Keller Dunn Tax Group
+    </h3>
    </a>
 
    <span className='lead' style={{ display: "block", marginTop: "33px" }}>

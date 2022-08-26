@@ -3,7 +3,24 @@ const router = express.Router();
 const Lead = require("../models/Lead");
 
 router.post("/", async (req, res) => {
- const { name, phone, email, problem, amount, time, type } = req.body;
+ const {
+  name,
+  phone,
+  email,
+  problem,
+  amount,
+  time,
+  type,
+  address,
+  city,
+  state,
+  zip,
+
+  callbackDate,
+  callbackTime,
+  method,
+  comments,
+ } = req.body;
  const newLead = new Lead({
   name,
   phone,
@@ -12,6 +29,15 @@ router.post("/", async (req, res) => {
   amount,
   time,
   type,
+  address,
+  city,
+  state,
+  zip,
+
+  callbackDate,
+  callbackTime,
+  method,
+  comments,
  });
 
  const lead = await newLead.save();

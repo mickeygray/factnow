@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import LeadState from "./context/lead/LeadState";
 
-import ActNow from "./components/pages/ActNow";
+import KellerDunn from "./components/pages/KellerDunn";
 import ClickSplash from "./components/pages/ClickSplash";
 import "./App.css";
 const App = () => {
@@ -11,7 +11,7 @@ const App = () => {
   <LeadState>
    <Router>
     <Routes>
-     <Route exact path='/actnow' element={<ActNow />} />
+     <Route exact path='/*' element={<KellerDunn />} />
      <Route exact path='/article' element={<ClickSplash />} />
     </Routes>
    </Router>

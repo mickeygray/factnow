@@ -9,6 +9,14 @@ const leadSchema = new Schema({
  phone: String,
  email: String,
  problem: String,
+ callbackDate: String,
+ callbackTime: String,
+ method: String,
+ comments: String,
+ address: String,
+ city: String,
+ state: String,
+ zip: String,
 });
 
 module.exports = mongoose.model("leads", leadSchema);

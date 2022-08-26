@@ -1,89 +1,110 @@
 import React from "react";
 import img1 from "../../images/M1.jpg";
-import HorizontalAdBar from "../advertisement/HorizontalAdBar";
-
+import articleHeader from "../../images/articleheader.png";
+import revenuetax from "../../images/revenuetax.png";
 const ArticleBody = () => {
  return (
   <div className='articlebody'>
-   <h1>
-    Seven Absolutely Essential Things To Do Before You Pay a Dime To The Irs{" "}
-   </h1>
-   <div className='lead'>
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores quas
-    perspiciatis saepe eaque rerum esse eum quo suscipit ducimus sed!
-   </div>
+   <h1>The IRS is Forgiving Late Filing Penalties for the Pandemic Years</h1>
+
    <div className='grid-2b'>
     <div>
      {" "}
      <img src={img1} alt='' className='round-img1' />
     </div>
     <div>
-     Jeff Jefferson <br /> LoremTax.com
+     Erwin Mills
+     <br /> kdunntax.com
     </div>
    </div>
-   <div>Posted On 7/4/2023</div>
+   <div>Posted On 8/26/2022</div>
+   <div className='lead'>
+    Are you one of the millions of Americans who had trouble filing or paying
+    taxes during the years of the pandemic?
+    <br />
+    <br />
+    File your taxes before September 30th to be considered for debt dismissal.
+   </div>
+
    <div className='m-1'>
-    <div
-     style={{ backgroudColor: "#f4f4f4", height: "400px", width: "500px" }}
-     className='all-center card'>
-     Article Header Image
+    <div>
+     <img
+      src={articleHeader}
+      alt=''
+      style={{ backgroudColor: "#f4f4f4", height: "400px", width: "500px" }}
+     />
     </div>
+    <p></p>
+   </div>
+   <div>
     <p>
-     Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, harum?
+     The newly passed Inflation Reduction Act{" "}
+     <a
+      href='https://www.democrats.senate.gov/imo/media/doc/inflation_reduction_act_one_page_summary.pdf'
+      target='_blank'>
+      H.R.5376
+     </a>{" "}
+     comes with the largest funding increase for the Internal Revenue Service in
+     many years. An agency that has been dragged into the spotlight during the
+     pandemic years as being an integral part in distributing stimulus payments,
+     but also failing to answer the phone for tax payers 9/10 times, is getting
+     a major overhaul with one goal in mind, performing more audits of
+     households, individuals and businesses making more than 400,000 dollars a
+     year.
     </p>
    </div>
    <div>
     <p>
-     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum facilis
-     placeat laboriosam aliquam maiores omnis recusandae deserunt adipisci nemo
-     animi ducimus, minima doloremque magnam. Magnam architecto culpa molestiae
-     doloribus odit.
+     With that as their goal, they have been given 80 billion dollars of
+     taxpayer money to hire new agents. Unfortunately all that funding will take
+     years to manifest a significant difference and in the meantime they are
+     still the federal agency in charge of administering and managing the tax
+     payments of everyone in America. As such they have a record of every late
+     tax payment made by everyone, and have to prioritize collecting all of the
+     debt as it exists through the traditional means. Under normal circumstances
+     this collection process is managed by the Automated Lien System and IRS
+     collections and the number of delinquent taxpayers stays around 1 percent.
     </p>
+   </div>
+   <div className='all-center'>
+    <img
+     src={revenuetax}
+     alt=''
+     style={{ backgroudColor: "#f4f4f4", height: "200px", width: "300px" }}
+    />
+   </div>
+   <div>
+    <h4>The last two years have been anything but normal circumstances.</h4>
     <p>
-     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-     asperiores iure iste fuga? Magni, alias accusantium quos sunt dolores culpa
-     earum hic eaque distinctio! Perspiciatis illo suscipit explicabo maiores
-     quidem.
+     Without any sort of structural change, the system that normally has 2-3
+     million people in it has “ [...] identified approximately 22.6 million
+     taxpayers [who] received more than $589 million in interest as of October
+     22, 2020”
+     <a
+      href='https://www.treasury.gov/tigta/auditreports/2021reports/202146023fr.pdf'
+      target='_blank'
+      style={{ fontSize: ".67rem" }}>
+      [source]
+     </a>
+     . This spike in owed taxes is unprecedented and a huge burden on people who
+     already face employment shortages, health concerns, inflated prices, and as
+     we turn to the fiscal year of 2022-2023, the IRS would have to begin
+     processing those additional 20 million tax debtors, with payment plans and
+     collection efforts that would cause more harm than good.
     </p>
    </div>
+
    <div>
-    <HorizontalAdBar />
-   </div>
-   <div>
-    <h3>1) Lorem, ipsum dolor.</h3>
-    <h5>
-     Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
-     consectetur.
-    </h5>
-    <div className='text-large'>
-     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus aperiam
-     facere quia, similique corporis, ad nihil quibusdam mollitia ea consectetur
-     commodi quod. Ducimus, atque! Debitis?
-    </div>
-   </div>{" "}
-   <div>
-    <h3>1) Lorem, ipsum dolor.</h3>
-    <h5>
-     Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
-     consectetur.
-    </h5>
-    <div className='text-large'>
-     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus aperiam
-     facere quia, similique corporis, ad nihil quibusdam mollitia ea consectetur
-     commodi quod. Ducimus, atque! Debitis?
-    </div>
-   </div>
-   <div>
-    <h3>1) Lorem, ipsum dolor.</h3>
-    <h5>
-     Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
-     consectetur.
-    </h5>
-    <div className='text-large'>
-     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus aperiam
-     facere quia, similique corporis, ad nihil quibusdam mollitia ea consectetur
-     commodi quod. Ducimus, atque! Debitis?
-    </div>
+    <h4>The IRS needs to clean house in order to rebuild.</h4>
+    <p>
+     So as part of the negotiations with Congress planning and prioritizing the
+     spending amounts and processes for the revamping of the agency, the IRS has
+     been encouraged to make a fresh start on its caseload with forgiveness of
+     interest and filing penalties accrued by first time debtors during the
+     pandemic years. As an initial calculation the IRS has opted to immediately
+     absolve 1.6 million Americans of their owed taxes from the pandemic years
+     refunding 1.2 billion dollars.
+    </p>
    </div>
   </div>
  );

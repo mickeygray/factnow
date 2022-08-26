@@ -25,6 +25,17 @@ body {
  width: 600px;
 }
 
+.articlebody div {
+ margin: 5px;
+ padding: 5px;
+}
+
+.articlebody div p {
+ margin: 2px;
+ padding: 2px;
+ text-indent: 15px;
+}
+
 .adbar {
  width: 300px;
 }
@@ -676,7 +687,7 @@ img {
 }
 
 .bg-hero {
- background-image: url("./images/hero.webp");
+ background-image: url("./images/kitefamil6.jpeg");
  margin-top: -17px;
  width: 97w;
  height: 110vh;

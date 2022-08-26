@@ -72,7 +72,7 @@ const Blogs = ({ toggleBlogsState }) => {
       <div className='all-center' style={{ height: "500px" }}>
        <div>
         <img src={img1} alt='' style={{ height: "200px" }} />
-        <h1>Act Now Tax Relief</h1>
+        <h1>Keller Dunn Tax Group</h1>
         <h3>Read More</h3>
        </div>
       </div>
