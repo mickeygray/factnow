@@ -689,7 +689,6 @@ img {
 .bg-hero {
  background-image: url("./images/kitefamil6.jpg.png");
  background-repeat: no-repeat;
-
  background-size: cover;
  margin-top: -17px;
  width: 97w;
