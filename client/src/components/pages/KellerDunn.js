@@ -7,6 +7,7 @@ import HowItWorks from "../body/HowItWorks";
 import SuccessStories from "../body/SuccessStories";
 import Waiting from "../foot/Waiting";
 import Footer from "../foot/Footer";
+import Blogs from "../content/Blogs";
 import { useLocation, NavLink } from "react-router-dom";
 const KellerDunn = () => {
  return (
@@ -25,6 +26,9 @@ const KellerDunn = () => {
     <br />
     <br />
     <SuccessStories />
+    <br />
+    <br />
+    <Blogs />
     <Waiting />
    </div>
    <Footer />

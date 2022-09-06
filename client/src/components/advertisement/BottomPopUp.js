@@ -12,7 +12,7 @@ const BottomPopUp = () => {
  };
 
  const [form, setForm] = useState({
-  fullName: "",
+  name: "",
   email: "",
  });
 
@@ -35,9 +35,8 @@ const BottomPopUp = () => {
 
  const clearAll = () => {
   setForm({
-   fullName: "",
+   name: "",
    email: "",
-   status: "new",
   });
  };
 
